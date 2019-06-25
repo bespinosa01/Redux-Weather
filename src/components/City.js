@@ -9,7 +9,8 @@ class City extends React.Component {
 				<br />
 				{this.props.weather.locationData.city ||
 					this.props.weather.locationData.town ||
-					this.props.weather.locationData.village}
+					this.props.weather.locationData.village ||
+					"N/A"}
 				, {this.props.weather.locationData.state_code}
 			</div>
 		);
