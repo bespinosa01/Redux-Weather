@@ -7,7 +7,6 @@ import {
   onDaySelect
 } from "../actions";
 class WeatherDetail extends Component {
-  componentDidUpdate() {}
 
   render() {
     const renderDays = this.props.weather.selectedDay;
